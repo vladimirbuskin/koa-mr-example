@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --harmony index.js",
+    "start": "node --harmony index.js",
+    "dev": "nodemon --harmony index.js",
     "test": "mocha --harmony \"./{,!(node_modules)/**/}*.test.js\"",
     "testWatch": "mocha -w --harmony \"./{,!(node_modules)/**/}*.test.js\""
   },
