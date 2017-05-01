@@ -26,3 +26,12 @@ http://localhost:3000/users
 // user details
 http://localhost:3000/users/{id}
 ```
+
+## tests
+
+supertest is used to unit test endpoints
+
+to run tests
+```
+npm test
+```
