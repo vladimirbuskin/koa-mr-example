@@ -4,18 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node --harmony index.js",
-    "dev": "nodemon --harmony index.js",
-    "test": "mocha --harmony \"./{,!(node_modules)/**/}*.test.js\"",
-    "testWatch": "mocha -w --harmony \"./{,!(node_modules)/**/}*.test.js\""
+    "start": "node --harmony src/index.js",
+    "dev": "nodemon --harmony src/index.js",
+    "test": "mocha --harmony \"src/**/*.test.js\"",
+    "testWatch": "mocha -w --harmony \"src/**/*.test.js\""
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "mocha": "3.1.2",
+    "mocha": "^3.1.2",
     "supertest": "^2.0.1"
   },
   "dependencies": {
-    "koa-mr": "^1.0.0"
+    "koa-mr": "^1.1.0",
+    "mocha": "^3.3.0"
   }
 }
